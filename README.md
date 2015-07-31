@@ -14,5 +14,5 @@ If you want to clear cache, delete files under .\resources\app\cache\
 - Set to eBayAuthToken on config.json
 
 ## Screen shot
-![Screen shot](./Screenshot.JPG "Screen shot")
+![Screen shot](https://github.com/demchig/eBayItemSpecs-win32-x64/blob/master/resources/app/Screenshot.JPG "Screen shot")
 
