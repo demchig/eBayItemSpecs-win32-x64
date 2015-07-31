@@ -1,0 +1,2439 @@
+[
+    {
+        "Name": "Brand",
+        "Required": "1",
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "7 For All Mankind",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Abercrombie & Fitch",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Aéropostale",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "American Eagle Outfitters",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Calvin Klein",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Citizens of Humanity",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DIESEL",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Express",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "GAP",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gloria Vanderbilt",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Hollister",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "J Brand",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Joe's Jeans",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lee",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Levi's",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lucky Brand",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Miss Me",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Old Navy",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ralph Lauren",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Rock & Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Silver Jeans",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tommy Hilfiger",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "True Religion",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Wrangler",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "!iT Jeans",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Size Type",
+        "Required": "1",
+        "SelectionMode": "SelectionOnly",
+        "ValueRecommendations": [
+            {
+                "Value": "Regular",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Petites",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Plus",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Juniors",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Bottoms Size (Women's)",
+        "Required": "1",
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "2XS",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "XS",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "S",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "M",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "L",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "XL",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "2XL",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "3XL",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "4XL",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "00",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "0",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "2",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "4",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "6",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "8",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "10",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "12",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "14",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "16",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "18",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "20",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "22",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Regular"
+                    }
+                }
+            },
+            {
+                "Value": "PP",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "PXS",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "PS",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "PM",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "PL",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "PXL",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "0P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "2P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "4P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "6P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "8P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "10P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "12P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "14P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "16P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "18P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "20P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "22P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "24P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "26P",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Petites"
+                    }
+                }
+            },
+            {
+                "Value": "0X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "1X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "2X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "3X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "4X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "5X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "6X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "7X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "8X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "9X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "10X",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "14W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "16W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "18W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "20W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "22W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "24W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "26W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "28W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "30W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "32W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "34W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "36W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "38W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "40W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "42W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "44W",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Plus"
+                    }
+                }
+            },
+            {
+                "Value": "1",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Juniors"
+                    }
+                }
+            },
+            {
+                "Value": "3",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Juniors"
+                    }
+                }
+            },
+            {
+                "Value": "5",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Juniors"
+                    }
+                }
+            },
+            {
+                "Value": "7",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Juniors"
+                    }
+                }
+            },
+            {
+                "Value": "9",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Juniors"
+                    }
+                }
+            },
+            {
+                "Value": "11",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Juniors"
+                    }
+                }
+            },
+            {
+                "Value": "13",
+                "ValidationRules": {
+                    "Relationship": {
+                        "ParentName": "Size Type",
+                        "ParentValue": "Juniors"
+                    }
+                }
+            },
+            {
+                "Value": "23 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "24 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "25 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "26 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "27 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "28 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "29 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "30 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "31 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "32 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Juniors"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "33 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Regular"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "34 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "35 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "36 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "37 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "38 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "39 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "40 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "41 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "42 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "43 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            },
+            {
+                "Value": "44 in.",
+                "ValidationRules": {
+                    "Relationship": [
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Petites"
+                        },
+                        {
+                            "ParentName": "Size Type",
+                            "ParentValue": "Plus"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Style",
+        "Required": "1",
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Boot Cut",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Boyfriend",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Capri, Cropped",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cargo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Carpenter",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Flare",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Leggings",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Overalls",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Relaxed",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Slim, Skinny",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Straight Leg",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Wide Leg",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Rise",
+        "Required": false,
+        "SelectionMode": "SelectionOnly",
+        "ValueRecommendations": [
+            {
+                "Value": "Ultra-Low",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Low",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mid-Rise",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Classic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "High Waist",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Inseam",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "20",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "21",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "22",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "23",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "24",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "25",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "26",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "27",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "28",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "29",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "30",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "31",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "32",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "33",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "34",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "35",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "36",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "37",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "38",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Short",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Medium",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Long",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Material",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "100% Cotton",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cotton Blend",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Organic Cotton",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Denim",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Wash",
+        "Required": false,
+        "SelectionMode": "SelectionOnly",
+        "ValueRecommendations": [
+            {
+                "Value": "Light",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Medium",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dark",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Distressed",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Stonewashed",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Acid Washed",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Rinsed, Indigo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "White",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Black & Gray",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Embellished",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Colored",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Country/Region of Manufacture",
+        "Required": false,
+        "SelectionMode": "SelectionOnly",
+        "ValueRecommendations": [
+            {
+                "Value": "Unknown",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Afghanistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Albania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Algeria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "American Samoa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Andorra",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Angola",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Anguilla",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Antarctica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Antigua and Barbuda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Argentina",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Armenia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Aruba",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Australia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Austria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Azerbaijan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bahamas",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bahrain",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bangladesh",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Barbados",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belarus",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belgium",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belize",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Benin",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bermuda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bhutan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bolivia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bosnia and Herzegovina",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Botswana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bouvet Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brazil",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "British Indian Ocean Territory",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brunei Darussalam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bulgaria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Burkina Faso",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Burundi",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cambodia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cameroon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Canada",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cape Verde",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cayman Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Central African Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Chad",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Chile",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "China",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Christmas Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cocos (Keeling) Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Colombia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Comoros",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Congo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Congo, The Democratic Republic of the",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cook Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Costa Rica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cote d'Ivoire",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Croatia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cyprus",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Czech Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Denmark",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Djibouti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dominica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dominican Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ecuador",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Egypt",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "El Salvador",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Equatorial Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Eritrea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Estonia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ethiopia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Falkland Islands (Malvinas)",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Faroe Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Fiji",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Finland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "France",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Guiana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Polynesia Includes Tahiti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Southern Territories",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gabon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gambia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Georgia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Germany",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ghana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gibraltar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Greece",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Greenland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Grenada",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guadeloupe",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guatemala",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guernsey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guinea-Bissau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guyana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Haiti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Heard Island and Mcdonald Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Holy See (Vatican City State)",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Honduras",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Hong Kong",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Hungary",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Iceland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "India",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Indonesia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Iraq",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ireland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Israel",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Italy",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jamaica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Japan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jersey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jordan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kazakhstan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kenya",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kiribati",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Korea, Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kuwait",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kyrgyzstan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lao People's Democratic Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Latvia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lebanon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lesotho",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Liberia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Libyan Arab Jamahiriya",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Liechtenstein",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lithuania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Luxembourg",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Macao",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Macedonia, the Former Yugoslav Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Madagascar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malawi",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malaysia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Maldives",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mali",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malta",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Marshall Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Martinique",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mauritania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mauritius",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mayotte",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mexico",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Micronesia, Federated States of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Moldova, Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Monaco",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mongolia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Montenegro",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Montserrat",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Morocco",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mozambique",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Namibia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nauru",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nepal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Netherlands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Netherlands Antilles",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "New Caledonia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "New Zealand",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nicaragua",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Niger",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nigeria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Niue",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Norfolk Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Northern Mariana Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Norway",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Oman",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pakistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Palau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Palestinian territory, Occupied",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Panama",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Papua New Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Paraguay",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Peru",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Philippines",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pitcairn",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Poland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Portugal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Puerto Rico",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Qatar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Reunion",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Romania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Russian Federation",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Rwanda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Helena",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Kitts and Nevis",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Lucia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Pierre and Miquelon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Vincent and the Grenadines",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Samoa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "San Marino",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sao Tome and Principe",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saudi Arabia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Senegal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Serbia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Seychelles",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sierra Leone",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Singapore",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Slovakia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Slovenia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Solomon Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Somalia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "South Africa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "South Georgia and the South Sandwich Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Spain",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sri Lanka",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Suriname",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Svalbard and Jan Mayen",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Swaziland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sweden",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Switzerland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Taiwan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tajikistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tanzania, United Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Thailand",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Togo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tokelau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tonga",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Trinidad and Tobago",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tunisia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turkey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turkmenistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turks and Caicos Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tuvalu",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uganda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ukraine",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United Arab Emirates",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United Kingdom",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United States",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uruguay",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uzbekistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Vanuatu",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Venezuela",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Vietnam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Virgin Islands, British",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Virgin Islands, U S",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Wallis and Futuna",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Western Sahara",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Yemen",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Zambia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Zimbabwe",
+                "ValidationRules": ""
+            }
+        ]
+    }
+]

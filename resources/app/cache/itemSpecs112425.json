@@ -1,0 +1,1048 @@
+[
+    {
+        "Name": "Gender",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Men",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Women",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Unisex",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Brand",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": {
+            "Value": "Unbranded",
+            "ValidationRules": ""
+        }
+    },
+    {
+        "Name": "Color",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Beige",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Black",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Blue",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brown",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gold",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gray",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Green",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ivory",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Multi-Color",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Orange",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pink",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Purple",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Red",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Silver",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "White",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Yellow",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Country/Region of Manufacture",
+        "Required": false,
+        "SelectionMode": "SelectionOnly",
+        "ValueRecommendations": [
+            {
+                "Value": "Unknown",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Afghanistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Albania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Algeria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "American Samoa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Andorra",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Angola",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Anguilla",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Antarctica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Antigua and Barbuda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Argentina",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Armenia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Aruba",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Australia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Austria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Azerbaijan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bahamas",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bahrain",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bangladesh",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Barbados",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belarus",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belgium",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belize",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Benin",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bermuda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bhutan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bolivia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bosnia and Herzegovina",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Botswana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bouvet Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brazil",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "British Indian Ocean Territory",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brunei Darussalam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bulgaria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Burkina Faso",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Burundi",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cambodia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cameroon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Canada",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cape Verde",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cayman Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Central African Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Chad",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Chile",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "China",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Christmas Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cocos (Keeling) Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Colombia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Comoros",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Congo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Congo, The Democratic Republic of the",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cook Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Costa Rica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cote d'Ivoire",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Croatia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cyprus",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Czech Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Denmark",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Djibouti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dominica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dominican Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ecuador",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Egypt",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "El Salvador",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Equatorial Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Eritrea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Estonia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ethiopia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Falkland Islands (Malvinas)",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Faroe Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Fiji",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Finland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "France",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Guiana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Polynesia Includes Tahiti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Southern Territories",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gabon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gambia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Georgia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Germany",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ghana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gibraltar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Greece",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Greenland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Grenada",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guadeloupe",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guatemala",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guernsey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guinea-Bissau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guyana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Haiti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Heard Island and Mcdonald Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Holy See (Vatican City State)",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Honduras",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Hong Kong",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Hungary",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Iceland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "India",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Indonesia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Iraq",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ireland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Israel",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Italy",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jamaica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Japan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jersey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jordan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kazakhstan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kenya",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kiribati",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Korea, Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kuwait",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kyrgyzstan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lao People's Democratic Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Latvia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lebanon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lesotho",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Liberia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Libyan Arab Jamahiriya",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Liechtenstein",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lithuania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Luxembourg",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Macao",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Macedonia, the Former Yugoslav Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Madagascar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malawi",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malaysia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Maldives",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mali",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malta",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Marshall Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Martinique",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mauritania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mauritius",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mayotte",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mexico",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Micronesia, Federated States of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Moldova, Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Monaco",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mongolia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Montenegro",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Montserrat",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Morocco",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mozambique",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Namibia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nauru",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nepal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Netherlands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Netherlands Antilles",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "New Caledonia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "New Zealand",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nicaragua",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Niger",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nigeria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Niue",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Norfolk Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Northern Mariana Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Norway",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Oman",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pakistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Palau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Palestinian territory, Occupied",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Panama",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Papua New Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Paraguay",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Peru",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Philippines",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pitcairn",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Poland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Portugal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Puerto Rico",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Qatar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Reunion",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Romania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Russian Federation",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Rwanda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Helena",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Kitts and Nevis",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Lucia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Pierre and Miquelon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Vincent and the Grenadines",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Samoa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "San Marino",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sao Tome and Principe",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saudi Arabia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Senegal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Serbia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Seychelles",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sierra Leone",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Singapore",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Slovakia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Slovenia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Solomon Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Somalia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "South Africa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "South Georgia and the South Sandwich Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Spain",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sri Lanka",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Suriname",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Svalbard and Jan Mayen",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Swaziland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sweden",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Switzerland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Taiwan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tajikistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tanzania, United Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Thailand",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Togo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tokelau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tonga",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Trinidad and Tobago",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tunisia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turkey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turkmenistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turks and Caicos Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tuvalu",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uganda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ukraine",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United Arab Emirates",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United Kingdom",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United States",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uruguay",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uzbekistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Vanuatu",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Venezuela",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Vietnam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Virgin Islands, British",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Virgin Islands, U S",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Wallis and Futuna",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Western Sahara",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Yemen",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Zambia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Zimbabwe",
+                "ValidationRules": ""
+            }
+        ]
+    }
+]

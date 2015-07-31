@@ -1,0 +1,2 @@
+cd C:\Apps\electron\eBayItemSpecs
+C:\Apps\electron\eBayItemSpecs\node_modules\electron-prebuilt\dist\electron.exe .\

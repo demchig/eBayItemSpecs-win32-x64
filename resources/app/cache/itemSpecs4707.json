@@ -1,0 +1,186 @@
+[
+    {
+        "Name": "Color",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Beige",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Black",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Blue",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brown",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Clear",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dark Wood Tone",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gold",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gray",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Green",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ivory",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Light Wood Tone",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Medium Wood Tone",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Multi-Color",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Orange",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pink",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Purple",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Red",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Silver",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "White",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Yellow",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Maker",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": []
+    },
+    {
+        "Name": "Material",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Alabaster",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brass",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bronze",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cast Iron",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ceramic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Chrome",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Copper",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Crystal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Glass",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gold",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Iron",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Marble",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mixed Material",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pewter",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Porcelain",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Silver",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Steel",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Stone",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Synthetic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tole",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Wood",
+                "ValidationRules": ""
+            }
+        ]
+    }
+]

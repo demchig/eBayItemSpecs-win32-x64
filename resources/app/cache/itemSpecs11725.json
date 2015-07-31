@@ -1,0 +1,1620 @@
+[
+    {
+        "Name": "Brand",
+        "Required": "1",
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Unbranded/Generic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Alba",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Archos",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Astone",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Auvisio",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "AVerMedia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Beyonwiz",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bush",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Coby",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Daewoo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DGTEC",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Digifusion",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Digital View",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DIRECTV",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DISH Network",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dream Multimedia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dual Electronics",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DViCO",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Elgato",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "EverFocus",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ferguson",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Fusion",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gefen",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Goodmans",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Grundig",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Model",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": []
+    },
+    {
+        "Name": "MPN",
+        "Required": "1",
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": {
+            "Value": "Does Not Apply",
+            "ValidationRules": ""
+        }
+    },
+    {
+        "Name": "Hard Drive Capacity",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "40GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "60GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "80GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "120GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "150GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "160GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "200GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "250GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "300GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "400GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "500GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "600GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "800GB",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "1TB",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Max. Resolution",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "1080p",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "1080i",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "720p",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "576p",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "576i",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "480p",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "480i",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "570p",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "720i",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "567p",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "575p",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Playable File Formats",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "AAC",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "AVCHD",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "AVI",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "BMP",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DivX",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DivX HD",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "FLAC",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "GIF",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "JPEG",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "MKV",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "MOV",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "MP3",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "MPEG-4",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Picture CD",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "WAV",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "WMA",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "WMV",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "XviD",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "OGG",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "MP2",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "MPA",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "PNG",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "TIFF",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "AVC",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "MP4",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Audio/Video Outputs",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Banana Speaker Jacks",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Coaxial F",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Component (YPbPr) BNC",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Component (YPbPr) RCA",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Composite Video BNC",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Composite Video RCA",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Digital Audio Coaxial RCA",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Digital Audio Optical TOSLINK",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DisplayPort",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DMS-59",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DVI",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "HDMI",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Headphone Jack",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Micro-DVI",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mini DisplayPort",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mini-DIN Video",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mini-DVI",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Raw Cable Speaker Jacks",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "SDI BNC",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Stereo 3D",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Stereo Audio L/R RCA",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "S-Video",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "VGA D-Sub",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Analog Audio x 2",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Digital Audio Optical x 1",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Country/Region of Manufacture",
+        "Required": false,
+        "SelectionMode": "SelectionOnly",
+        "ValueRecommendations": [
+            {
+                "Value": "Unknown",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Afghanistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Albania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Algeria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "American Samoa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Andorra",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Angola",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Anguilla",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Antarctica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Antigua and Barbuda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Argentina",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Armenia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Aruba",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Australia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Austria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Azerbaijan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bahamas",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bahrain",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bangladesh",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Barbados",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belarus",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belgium",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Belize",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Benin",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bermuda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bhutan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bolivia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bosnia and Herzegovina",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Botswana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bouvet Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brazil",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "British Indian Ocean Territory",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Brunei Darussalam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bulgaria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Burkina Faso",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Burundi",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cambodia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cameroon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Canada",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cape Verde",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cayman Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Central African Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Chad",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Chile",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "China",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Christmas Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cocos (Keeling) Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Colombia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Comoros",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Congo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Congo, The Democratic Republic of the",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cook Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Costa Rica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cote d'Ivoire",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Croatia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cyprus",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Czech Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Denmark",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Djibouti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dominica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dominican Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ecuador",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Egypt",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "El Salvador",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Equatorial Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Eritrea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Estonia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ethiopia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Falkland Islands (Malvinas)",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Faroe Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Fiji",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Finland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "France",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Guiana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Polynesia Includes Tahiti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "French Southern Territories",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gabon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gambia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Georgia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Germany",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ghana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Gibraltar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Greece",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Greenland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Grenada",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guadeloupe",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guatemala",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guernsey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guinea-Bissau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Guyana",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Haiti",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Heard Island and Mcdonald Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Holy See (Vatican City State)",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Honduras",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Hong Kong",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Hungary",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Iceland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "India",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Indonesia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Iraq",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ireland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Israel",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Italy",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jamaica",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Japan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jersey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jordan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kazakhstan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kenya",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kiribati",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Korea, Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kuwait",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Kyrgyzstan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lao People's Democratic Republic",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Latvia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lebanon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lesotho",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Liberia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Libyan Arab Jamahiriya",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Liechtenstein",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Lithuania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Luxembourg",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Macao",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Macedonia, the Former Yugoslav Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Madagascar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malawi",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malaysia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Maldives",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mali",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Malta",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Marshall Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Martinique",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mauritania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mauritius",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mayotte",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mexico",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Micronesia, Federated States of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Moldova, Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Monaco",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mongolia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Montenegro",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Montserrat",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Morocco",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Mozambique",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Namibia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nauru",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nepal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Netherlands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Netherlands Antilles",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "New Caledonia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "New Zealand",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nicaragua",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Niger",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Nigeria",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Niue",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Norfolk Island",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Northern Mariana Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Norway",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Oman",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pakistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Palau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Palestinian territory, Occupied",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Panama",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Papua New Guinea",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Paraguay",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Peru",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Philippines",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Pitcairn",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Poland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Portugal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Puerto Rico",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Qatar",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Reunion",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Romania",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Russian Federation",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Rwanda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Helena",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Kitts and Nevis",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Lucia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Pierre and Miquelon",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saint Vincent and the Grenadines",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Samoa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "San Marino",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sao Tome and Principe",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Saudi Arabia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Senegal",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Serbia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Seychelles",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sierra Leone",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Singapore",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Slovakia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Slovenia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Solomon Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Somalia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "South Africa",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "South Georgia and the South Sandwich Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Spain",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sri Lanka",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Suriname",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Svalbard and Jan Mayen",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Swaziland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Sweden",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Switzerland",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Taiwan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tajikistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tanzania, United Republic of",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Thailand",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Togo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tokelau",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tonga",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Trinidad and Tobago",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tunisia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turkey",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turkmenistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Turks and Caicos Islands",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Tuvalu",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uganda",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ukraine",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United Arab Emirates",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United Kingdom",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "United States",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uruguay",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Uzbekistan",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Vanuatu",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Venezuela",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Vietnam",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Virgin Islands, British",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Virgin Islands, U S",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Wallis and Futuna",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Western Sahara",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Yemen",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Zambia",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Zimbabwe",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Data Interfaces",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "USB x 1",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Telephone (RJ-11) x 1",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Serial",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "IR Connector",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Network (RJ-45)",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "USB x 2",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "USB x 3",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Proprietary Service Port",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Telephone (RJ-11) x 2",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Common Interface Slot",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "eSATA Port",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Ethernet Port",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Memory Card Slot",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "PCMCIA Port",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "RS-232 Port",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Smart Card Slot",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Wi-Fi",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "USB Port",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Composite Video RCA",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "RS-232C",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Analog Audio x 1",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Features",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Pause Live TV",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Simultaneous Record and Play",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Simultaneous 2 Programs Recording",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Season Pass",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "One Touch Recording",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Cable / Satellite Receiver Control",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Playlist Playback",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Chasing Playback",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Time Slip",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Manual Record",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Auto Record",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Bookmarks",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Dual Tuner",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "DVR/Hard Drive Recorder",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Free to Air",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Home Media Center",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Instant Replay",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Internet/Media Streamer",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Rewind Live TV",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "TiVo",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Record and Watch in HD",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Over-the-Air Recording (OTA)",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Jump Ahead",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Slow Motion",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Time Shifting",
+                "ValidationRules": ""
+            }
+        ]
+    },
+    {
+        "Name": "Type",
+        "Required": false,
+        "SelectionMode": "FreeText",
+        "ValueRecommendations": [
+            {
+                "Value": "Standard Digital",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "HD Digital",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Analog",
+                "ValidationRules": ""
+            },
+            {
+                "Value": "Digital/Analog",
+                "ValidationRules": ""
+            }
+        ]
+    }
+]

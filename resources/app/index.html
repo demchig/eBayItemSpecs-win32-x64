@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>eBay Category Item Specifics Master</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="heading">eBay Category Master</h1>
+
+        <p class="bg-warning" id="load-indicator">Loaded</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <button id="button-reload">Reset All</button>
+                <ul id="topCats">
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <table class="table table-striped">
+                    <tr>
+                        <th>Name</th>
+                        <th>Required</th>
+                        <th>Selection Mode</th>
+                        <th>Recommendations</th>
+                    </tr>
+                    <tbody id="item-spec-table"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    var ipc = require('ipc');
+    var $ = jQuery = require("./jquery.js");
+
+    var Cats = {}; // global variable
+
+    ipc.send(
+        'asynchronous-message', {
+            method: 'topCats'
+        }
+    );
+
+    $(function() {
+        var button = $("#button-reload");
+        button.click(function() {
+                //console.log(ipc.sendSync('synchronous-message', 'ping')); // prints "pong"
+                $("#topCats").empty();
+                $("#item-spec-table").empty();
+                Cats = {};
+                ipc.send('asynchronous-message', {
+                    method: "topCats"
+                });
+                console.log("reloaded");
+                return false;
+            })
+            //console.log(button);
+
+    });
+
+    ipc.on('asynchronous-reply', function(arg) {
+        //console.log(arg);
+        if (arg.method == "topCats") {
+            var topCats = arg.body;
+            var ulObj = $("#topCats");
+            populateChilds(topCats, ulObj)
+        }
+
+        if (arg.method == "categories") {
+            var catId = arg.catId;
+            var cats = arg.body;
+            if (cats.length) {
+                var parent = $("#li-cat-" + arg.catId);
+                //console.log(parent);
+                var ulObj = $("<ul></ul>").attr('id', "ul-cat-" + arg.catId);
+                parent.after(ulObj);
+                populateChilds(cats, ulObj);
+                Cats[catId] = true;
+            }
+        }
+
+        if (arg.method == 'itemSpecs') {
+            var itemSpecs = arg.body;
+            var trClass = 'itemSpecTr-' + arg.catId;
+            var delButton = $('<a href="#">Delete</a>').addClass('pull-right bg-danger').click(function(){
+                $('.' + trClass).remove();
+                return false;
+            });
+            var trthObj = $('<th colspan="4" class="bg-primary">' + arg.parentName + ' > ' + arg.catName + '</th>').append(delButton);
+
+            $('<tr></tr>').addClass(trClass).append(trthObj).attr('id', 'itemSpecTR-' + arg.catId).appendTo("#item-spec-table");
+            for (var i in itemSpecs) {
+                var trObj = $('<tr></tr>').addClass(trClass);
+                var itemSpec = itemSpecs[i];
+                var required = itemSpec.Required ? 'TRUE' : "false";
+                if(itemSpec.Required){
+                    trObj.addClass('bg-danger');
+                }
+                $('<td></td>').text(itemSpec.Name).appendTo(trObj);
+                $('<td></td>').text(required).appendTo(trObj);
+                $('<td></td>').text(itemSpec.SelectionMode).appendTo(trObj);
+                itemSpec.ValueRecommendations = itemSpec.ValueRecommendations || [];
+                var recSelection = $('<select></select>');
+                for (var j in itemSpec.ValueRecommendations) {
+                    recSelection.append($('<option>' + itemSpec.ValueRecommendations[j].Value + '</option>'));
+                }
+                $('<td></td>').append(recSelection).appendTo(trObj);
+                //console.log(itemSpec.ValueRecommendations);
+                trObj.appendTo("#item-spec-table");
+            }
+
+            if(!itemSpecs.length){
+                $('<tr><td colspan="4">No Item Specs</td></tr>').addClass(trClass).appendTo("#item-spec-table");
+            }
+
+            $("#load-indicator").removeClass("bg-danger").text("Loaded");
+        }
+    });
+
+    function populateChilds(cats, parent) {
+        for (var i in cats) {
+            var cat = cats[i];
+            var liObj = $('<li id="li-cat-' + cat.CategoryID + '" class="category"></li>');
+            var spanObj = $("<span></span>").attr('id', 'cat-' + cat.CategoryID).click(function() {
+                var catId = $(this).attr("id").replace("cat-", '');
+                //console.log(catId);
+                if (Cats[catId]) {
+                    // already loaded, display toggle only
+                    $("#ul-cat-" + catId).toggle();
+                    return false;
+                }
+                ipc.send('asynchronous-message', {
+                    method: 'categories',
+                    catId: catId,
+                });
+                return false;
+            }).text(cat.CategoryName + " " + cat.CategoryID + " ").appendTo(liObj);
+
+            $('<a><span class="label label-primary">ItemSpec</span> </a>').attr('id', 'itemspec-' + cat.CategoryID).attr('href', '#').click(function() {
+                $("#load-indicator").addClass("bg-danger").text("Loading...");
+
+                var catId = $(this).attr("id").replace("itemspec-", '');
+                if (!$('#itemSpecTR-' + catId).length) {
+                    ipc.send('asynchronous-message', {
+                        method: "itemSpecs",
+                        catId: catId
+                    });
+                }
+                else{
+                    // already displayed Item Specs
+                    $("#load-indicator").removeClass("bg-danger").text("Loaded");
+                }
+                return false;
+
+            }).appendTo(liObj);
+            $('<a><span class="label label-default">eBay</span></a>').attr('href', 'http://www.ebay.com/sch/' + cat.CategoryID + '/i.html').attr('target', "_blank").appendTo(liObj);
+
+            liObj.appendTo(parent);
+        }
+    }
+
+
+    </script>
+</body>
+
+</html>
